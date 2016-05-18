@@ -28,7 +28,7 @@
 	</style>
 </head>
 <body>
-<nav id="header" class="navbar navbar-fixed-top">
+		<nav id="header" class="navbar navbar-fixed-top">
             <div id="header-container" class="container navbar-container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -51,7 +51,7 @@
 								<li><a href="#">News</a></li>
 							</ul>
 						</li>
-						<li><a href="create-post.html"><span class="glyphicon glyphicon-pencil"></span> New post</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-pencil"></span> New post</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
 				      <li><a href="index.html"><span class="glyphicon glyphicon-log-out"></span> Sign out</a></li>
@@ -60,18 +60,24 @@
             </div><!-- /.container -->
         </nav><!-- /.navbar -->
         
-        <div class="col-md-1"></div>
-        <div class="col-md-10">
-	        <div class="panel panel-primary">
-		      <div class="panel-heading">Post title</div>
-		      <div class="panel-body">Post Body</div>
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+	        <div class="panel panel-info">
+		      <div class="panel-heading">Easy Web Board</div>
+		      <div class="panel-body">
+		      	<div class="form-group">
+				  <label for="usr">Title:</label>
+				  <input type="text" class="form-control" id="usr">
+				</div>
+				<div class="form-group">
+				  <label for="comment">Body:</label>
+				  <textarea class="form-control" rows="5" id="comment"></textarea>
+				</div>
+				<div class="col-md-10"></div>
+				<button type="button" class="btn btn-success">Confirm</button>
+		      </div>
 		    </div>
-		    <div class="well well-lg" style="width: 80%">
-        		Comment
-        	</div>
-        <div class="col-md-1"></div>
-	    </div>
-
-
+		</div>
+        <div class="col-md-2"></div>
         
 </html>
